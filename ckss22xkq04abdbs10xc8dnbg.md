@@ -1,4 +1,4 @@
-## Tutorial: k8s desde dev hasta prod con Gitlab, Skaffold, Kustomize y Kaniko
+## k8s desde dev hasta prod con Gitlab, Skaffold, Kustomize y Kaniko
 
 
 ### La prueba de concepto
