@@ -95,18 +95,13 @@ El paso más importante en esta etapa es construir nuestro archivo `.gitlab-ci.y
 
 ![GitLab Pipeline](https://cdn.hashnode.com/res/hashnode/image/upload/v1629983077083/0RwoE6goV2.png)
 
-
-Lo bueno de construir tus imágenes con Kaniko (al menos para mi) es que guarda en el mismo registro de imágenes una capa de cache, para que las posteriores construcciones sean mucho más rápidas
-
+Lo bueno de construir tus imágenes con `Kaniko` *(al menos para mi)* es que guarda en el mismo registro de imágenes una capa de cache, para que las posteriores construcciones sean mucho más rápidas.
 
 ![Registry de GitLab con la capa de cache de Kaniko](https://cdn.hashnode.com/res/hashnode/image/upload/v1629982879941/Qi4tfze-j.png)
 
+Luego de esto si debemos asegurarnos que nuestro cluster de `K8s` esta integrado al proyecto en `GitLab`, en realidad es un paso bastante sencillo y se puede ver detallado  [aquí](https://docs.gitlab.com/ee/user/project/clusters/add_existing_cluster.html) 
 
-Luego de esto si debemos estar seguros que nuestro cluster de K8s esta integrado al proyecto en GitLab, en realidad es un paso bastante sencillo y se puede ver detallado  [aquí](https://docs.gitlab.com/ee/user/project/clusters/add_existing_cluster.html) 
-
-Una vez integrado tu cluster en tu proyecto de GitLab, el paso `deploy` con `skaffold` del pipeline será capaz de promover el manifiesto k8s directo en tu cluster de Google Cloud o de Amazon Web Services.
-
-
+Una vez integrado tu cluster en tu proyecto de GitLab, el paso `deploy` con `skaffold` del pipeline será capaz de promover el manifiesto k8s directo en tu cluster de `Google Cloud` o de `Amazon Web Services`.
 
 ![Deploy en Cluster GCP k8s](https://cdn.hashnode.com/res/hashnode/image/upload/v1629983273581/f7GcLhHXt.png)
 
