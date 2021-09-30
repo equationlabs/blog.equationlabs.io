@@ -216,7 +216,9 @@ Tendríamos este escenario:
 
 **Pipeline en Features**
 
-![Screen Shot 2021-08-30 at 19.45.02.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1630363533813/VF7046mEB.png)
+ 
+![Screenshot 2021-09-30 at 20.27.40.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1633026544204/M7bt9gBHF.png)
+
 
 ** Environment dinámico y deploy dashboard**
 
@@ -236,7 +238,7 @@ Y esto es todo por ahora amigos, como siempre compartan, que compartir hace bien
 
 ----
 
-%[https://gitlab.com/rcastellanosm/gitops-example-with-kaniko-and-skaffold]
+%[https://gitlab.com/equationlabs/stacks/emr/endovelicus]
 
 
 
