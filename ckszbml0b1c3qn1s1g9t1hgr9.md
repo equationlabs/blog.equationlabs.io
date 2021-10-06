@@ -233,6 +233,7 @@ Ahora nos queda probar, para completar el circuito, que al aprobar el `MR`, se e
 **Pipeline con el MR aprobado**
 
 
+![Screenshot 2021-10-06 at 17.35.05.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1633534583973/9_dgH4g76.png)
 
 Y esto es todo por ahora amigos, como siempre compartan, que compartir hace bien. Les dejo más abajo el repo con todos los files que vimos hoy para que los puedan ojear mas a detalles.
 
