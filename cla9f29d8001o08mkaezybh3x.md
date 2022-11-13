@@ -181,3 +181,10 @@ If you are interested the next topics I'll write on are:
 - `Istio`, `Cert-Manager` and `Let's Encrypt`: Secured your `k8` clusters communication with automated generation and provisioning of SSL Certificates
 - Internal Developer Platform: A modern way to run engineering teams.
 - The `Digital War Room` or how to get observability for Engineering Managers across applications  and teams.
+
+
+## Support me
+
+If you find this content interesting, please consider buying me a coffee :') 
+
+%%[buy-me-a-coffee]
