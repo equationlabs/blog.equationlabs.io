@@ -125,4 +125,6 @@ A Big KUDOS to the team #skaffold for the great job, if you wan to know more abo
 
 If you like what you just read and you find it valuable, then you can buy me a coffee by clicking the link in the image below, I would be appreciated, git a click on the `sponsor' button.
 
+%%[buy-me-a-coffee]
+
 
