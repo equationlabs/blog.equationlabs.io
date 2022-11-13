@@ -26,12 +26,13 @@ Obviously, this isn't acceptable approach if you want to achieve `zero-downtime`
 
 Something like this:
 
-![Pipeline + cluster proposals.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1668341055688/X1Gqam9ZP.jpg align="left")
+
+![Pipeline + cluster proposals-2.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1668344068616/A3UYB5av5.jpg align="left")
 
 ## `Job`, `InitContainer` and `RollingUpdates` 
 So after choose our strategy to run `migrations` on `k8s`, we need to write our manifests in order to accomplish the defined workflow.
 
-First, the migrations jot itself:
+First, the migrations job itself:
 
 ```yaml
 apiVersion: batch/v1
