@@ -1,4 +1,4 @@
-# Safely managing database migrations in k8s natively.
+# Managing database migrations safely in high replicated k8s deployment.
 
 So, you wan to run migrations in a cloud native application running on `Kubernetes` and don't die trying huh! 
 
