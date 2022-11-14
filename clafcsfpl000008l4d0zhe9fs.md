@@ -114,6 +114,6 @@ At least with this we can assure that data consistency is preserve, but it's imp
 
 
 ## Support Me
-If you like what you just read and you find it valuable, then you can buy me a coffee by clicking the link in the image below, I would be appreciated, git a click on the `sponsor` button or buy me a coffee below :') .
+If you like what you just read and you find it valuable, then you can buy me a coffee by clicking the link in the image below, I would be appreciated or you can become an sponsor :).
 
 %%[buy-me-a-coffee]
