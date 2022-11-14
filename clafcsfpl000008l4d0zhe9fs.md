@@ -107,10 +107,9 @@ At least with this we can assure that data consistency is preserve, but it's imp
 - Write your migrations always thinking in a fast execution, if you expect to run migrations that took more than 5 minutes, considering ask for a maintenance window to restrict traffic access to the application.
 -  Do your migrations always thinking in retro compatibility of your current code running on production.
   - For example, do not alter a table adding a column NOT NULLABLE or without DEFAULT value.
-- If you need to delete and add a column and delete other, the best strategy to follow is do 2 deployments. 
+- If you need to add a column and delete other, the best strategy to follow is to do 2 separates deployments. 
   - Run the first deploy adding the column, and validate that all is running smoothly in production.
   - Run a new deployment only deleting the old column from the database.
-
 
 
 ## Support Me
