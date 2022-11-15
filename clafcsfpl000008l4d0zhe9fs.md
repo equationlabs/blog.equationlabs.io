@@ -1,6 +1,6 @@
 # Managing database migrations safely in high replicated k8s deployment.
 
-So, you wan to run migrations in a cloud native application running on `Kubernetes` and don't die trying huh! 
+So, you want to run migrations in a cloud native application running on a `Kubernetes` cluster, and don't die trying huh! 
 
 ***Well you're in the right place!! ***
 
